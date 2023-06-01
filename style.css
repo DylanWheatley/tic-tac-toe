@@ -49,3 +49,63 @@ table {
 
 
 /* START HERE */
+
+body {
+	background-color: lightblue;
+}
+
+#grid-container {
+	/* background-color: white; */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 0rem; */
+}
+
+.board {
+	border: 2px solid black;
+	text-align: center;
+	padding-top: 5rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.player {
+	margin: 40px auto;
+	/* margin-bottom: 1rem; */
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+}
+
+.button-container {
+
+	margin: 0px auto;
+}
+
+.reset {
+	display: block;
+	margin: 10px auto;
+	width: 100px;
+	height: 25px;
+}
+
+.playerOne {
+	background-color: blue;
+}
+
+.playerTwo {
+	background-color: red;
+}
+
+.win {
+	background-color: green;
+}
+
+.start {
+	background-color: white;
+}
